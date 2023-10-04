@@ -304,9 +304,9 @@ Elsa
 
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/ARAKAL_THERAVAD_MOVIES> ᴄʜᴀɴɴᴇʟ </a>
-
-▫️<a href=https://t.me/OTT_ARAKAL_THERAVAD_MOVIES> sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ </a>
+♻️ 𝙅𝙊𝙄𝙉 :- <a href=https://t.me/ARAKAL_THERAVAD_MOVIES> GROUP </a>
+♻️ 𝙅𝙊𝙄𝙉 :- <a href=https://t.me/OTT_ARAKAL_THERAVAD_MOVIES> OTT UPDATES </a>
+♻️ 𝙅𝙊𝙄𝙉 :- <a href=https://t.me/ARAKAL_THERAVAD_GROUP_LINKS> CHANNEL</a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
     RESTART_TXT = """
