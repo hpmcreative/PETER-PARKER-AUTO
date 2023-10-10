@@ -298,7 +298,7 @@ Elsa
 
 ©{message.chat.title}</b>
 """
-<b>Hai  {} </b>😍
+<b>Hai  {} </b>
 
 
     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}</b>
