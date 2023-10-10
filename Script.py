@@ -256,9 +256,12 @@ Name - {}
 Elsa
 """
     FILE_MSG = """
-<b>Hai  {} </b>😍
+<b>Hai 👋 {} </b>😍
+
 <b>📫 Your File is Ready</b>
+
 <b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <b><code><b>{}</b></code></b>              
+                       
 <b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{}</b>
 """
     CHANNEL_CAP = """
@@ -296,10 +299,13 @@ Elsa
 ©{message.chat.title}</b>
 """
 
+    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
-     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+
+
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
 ▫️<a href=https://t.me/ARAKAL_THERAVAD_MOVIES> ᴄʜᴀɴɴᴇʟ </a>
+
 ▫️<a href=https://t.me/OTT_ARAKAL_THERAVAD_MOVIES> sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
