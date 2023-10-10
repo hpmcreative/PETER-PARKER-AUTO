@@ -256,7 +256,7 @@ Name - {}
 Elsa
 """
     FILE_MSG = """
-<b>Hai 👋 {} </b>😍
+<b>Hai  {} </b>😍
 
 <b>📫 Your File is Ready</b>
 
