@@ -297,7 +297,7 @@ Elsa
 """
 
 
-    CUSTOM_FILE_CAPTION = """<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <b><code><b>{}</b></code></b>
+ CUSTOM_FILE_CAPTION = """<b>FILE : <code>{file_name}</code>
 
 <b>📫 Your File is Ready</b>
 
