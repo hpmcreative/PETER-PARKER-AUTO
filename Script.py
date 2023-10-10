@@ -298,7 +298,6 @@ Elsa
 
 ©{message.chat.title}</b>
 """
-<b>Hai  {} </b>
 
 
     CUSTOM_FILE_CAPTION = """
