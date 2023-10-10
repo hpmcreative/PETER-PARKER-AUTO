@@ -303,6 +303,8 @@ Elsa
 <b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
 
+<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{}</b>
+
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
 ♻️ 𝙅𝙊𝙄𝙉 :- <a href=https://t.me/ARAKAL_THERAVAD_MOVIES> GROUP </a>
