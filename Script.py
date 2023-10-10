@@ -301,8 +301,13 @@ Elsa
 <b>Hai  {} </b>
 
 
-    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}</b>
+    CUSTOM_FILE_CAPTION = """
+<b>Hai  {} </b>😍
 
+<b>📫 Your File is Ready</b>
+
+<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <b><code><b>{}</b></code></b>              
+                       
 <b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{}</b>
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
