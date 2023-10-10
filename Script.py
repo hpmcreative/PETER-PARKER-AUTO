@@ -297,18 +297,10 @@ Elsa
 """
 
 
-     CUSTOM_FILE_CAPTION = """<b>FILE : <code>{file_name}</code>
-
-<b>📫 Your File is Ready</b>
-
-<b>Hai  {} </b>😍              
-                       
-<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{}</b>
-
+     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-♻️ 𝙅𝙊𝙄𝙉 :- <a href=https://t.me/ARAKAL_THERAVAD_MOVIES> GROUP </a>
-♻️ 𝙅𝙊𝙄𝙉 :- <a href=https://t.me/OTT_ARAKAL_THERAVAD_MOVIES> OTT UPDATES </a>
-♻️ 𝙅𝙊𝙄𝙉 :- <a href=https://t.me/ARAKAL_THERAVAD_GROUP_LINKS> CHANNEL</a>
+▫️<a href=https://t.me/ARAKAL_THERAVAD_MOVIES> ᴄʜᴀɴɴᴇʟ </a>
+▫️<a href=https://t.me/OTT_ARAKAL_THERAVAD_MOVIES> sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
     RESTART_TXT = """
