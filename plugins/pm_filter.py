@@ -116,13 +116,13 @@ async def pm_text(bot, message):
     await message.reply_text("<b>ഇവിടെ ചോദിച്ചാൽ സിനിമ കിട്ടില്ല ഗ്രൂപ്പിൽ മാത്രം സിനിമ ചോദിക്കുക</b>",
                              reply_markup=InlineKeyboardMarkup(
                                  [[
-                                     InlineKeyboardButton('🔰 JOIN ❗️C H A N N E L 🔰', url='https://t.me/ARAKAL_THERAVAD_MOVIES')
+                                     InlineKeyboardButton('🔰 Jᴏɪɴ Gʀᴏᴜᴘ 🔰', url='https://t.me/+eJvqrixrfMBlYjI1')
                                  ]]
                              )
                             )                     
     await bot.send_message(
         chat_id=LOG_CHANNEL,
-        text=f"<b>#PM_MSG\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>"
+        text=f"<b>#PM_MSG    PETER-ELSA\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>"
     )
 
 @Client.on_callback_query(filters.regex(r"^next"))
@@ -656,13 +656,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/oTTGArakalTheravadMovies')
+            InlineKeyboardButton('🔍 𝘚ᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('𝘖ᴡɴᴇʀ-𝘐ɴғᴏ', url='https://t.me/+ipDgG7Qfrps1ZTJl')
         ], [
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
-         ],[
-            InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='surprise')
+            InlineKeyboardButton('⚙️ 𝘍ᴜɴᴄᴛɪᴏɴ ⚙️', callback_data='help'),
+            InlineKeyboardButton('⏱️ 𝘈ʙᴏᴜᴛ ⏱️', callback_data='about')
+        ], [
+            InlineKeyboardButton('🚧 ʙᴀᴄk 𝘚ᴛ𝘈ʀᴛ 🚧', callback_data='surprise')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -801,7 +801,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/Devil-Botz/Elsa'),
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/+hWxbpCxKDiVkZmU1'),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -959,8 +959,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "deploy":
         buttons = [[
-           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/Devil-Botz/Elsa'),
-           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/ARAKAL_THERAVAD_GROUP_LINKS')
+           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/+hWxbpCxKDiVkZmU1'),
+           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/VIS_HNU_boT')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='aswin')
         ]]
