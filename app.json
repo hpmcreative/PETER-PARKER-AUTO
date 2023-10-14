@@ -17,7 +17,7 @@
       "inline"
     ],
     "website": "https://github.com/matrixbotz0/PETER-PARKER-BOT",
-    "repository": "https://github.com/matrixbotz0/PETER-PARKER-BOT",
+    "repository": "https://github.com/vishnuu123pl/PETER-PARKER-AUTO",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
