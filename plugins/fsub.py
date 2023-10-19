@@ -96,14 +96,14 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
         else:
             return True
     except UserNotParticipant:
-        text="""**Cʟɪᴄᴋ " 📢 𝐉𝐨𝐢𝐧 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 📢 " Tʜᴇɴ Cʟɪᴄᴋ " 🔄 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 🔄 " Bᴏᴛᴛᴏɴ Tʜᴇɴ Yᴏᴜ Wɪʟʟ Gᴇᴛ Yᴏᴜʀ Mᴏᴠɪᴇ**"""
+        text="""**Cʟɪᴄᴋ "🚧 𝘑𝘖𝘐𝘕 𝘙𝘌𝘘 𝘊𝘏𝘈𝘕𝘕𝘌𝘓 🚧" Tʜᴇɴ Cʟɪᴄᴋ " 🔄 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 🔄 " Bᴏᴛᴛᴏɴ Tʜᴇɴ Yᴏᴜ Wɪʟʟ Gᴇᴛ Yᴏᴜʀ Serial**"""
 
         buttons = [
             [
-                InlineKeyboardButton("📢 𝐉𝐨𝐢𝐧 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 📢", url=invite_link)
+                InlineKeyboardButton("🚧 𝘑𝘖𝘐𝘕 𝘙𝘌𝘘 𝘊𝘏𝘈𝘕𝘕𝘌𝘓 🚧", url=invite_link)
             ],
             [
-                InlineKeyboardButton("🔄 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 🔄", callback_data=f"{mode}#{file_id}")
+                InlineKeyboardButton("⏱️ 𝖳𝗋𝗒 𝖠𝗀𝖺𝗂𝗇 ⏱️", callback_data=f"{mode}#{file_id}")
             ]
         ]
 
