@@ -69,7 +69,7 @@ async def start(client, message):
             return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('Dᴏɴ'ᴛ Cʟɪᴄᴋ Hᴇʀᴇ', callback_data='start')
+            InlineKeyboardButton('Dᴏɴᴛ Cʟɪᴄᴋ Hᴇʀᴇ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         a = await message.reply_text(
