@@ -101,8 +101,9 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
         buttons = [
             [
                 InlineKeyboardButton("🚧 𝘑𝘖𝘐𝘕 𝘙𝘌𝘘 𝘊𝘏𝘈𝘕𝘕𝘌𝘓 🚧", url=invite_link)
-            ],
-            [
+            ],[
+                InlineKeyboardButton("㋡ Wʜʏ I'ᴍ Jᴏɪɴɪɴɢ ?", callback_data='whyjoin')
+            ],[
                 InlineKeyboardButton("⏱️ 𝖳𝗋𝗒 𝖠𝗀𝖺𝗂𝗇 ⏱️", callback_data=f"{mode}#{file_id}")
             ]
         ]
