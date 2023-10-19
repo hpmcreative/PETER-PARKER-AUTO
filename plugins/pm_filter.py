@@ -113,16 +113,16 @@ async def pm_text(bot, message):
     user = message.from_user.first_name
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    await message.reply_text("<b>ഇവിടെ ചോദിച്ചാൽ സിനിമ കിട്ടില്ല ഗ്രൂപ്പിൽ മാത്രം സിനിമ ചോദിക്കുക</b>",
+    await message.reply_text("<b>DON'T  ASK  HERE  FOR  FILES</b>",
                              reply_markup=InlineKeyboardMarkup(
                                  [[
-                                     InlineKeyboardButton('🔰 Jᴏɪɴ Gʀᴏᴜᴘ 🔰', url='https://t.me/+eJvqrixrfMBlYjI1')
+                                     InlineKeyboardButton('🔰 Jᴏɪɴ Gʀᴏᴜᴘ 🔰', url='https://t.me/Asianet_serial_HPM')
                                  ]]
                              )
                             )                     
     await bot.send_message(
         chat_id=LOG_CHANNEL,
-        text=f"<b>#PM_MSG    PETER-ELSA\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>"
+        text=f"<b>#PM_MSG    SERIES\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>"
     )
 
 @Client.on_callback_query(filters.regex(r"^next"))
@@ -654,15 +654,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
-            InlineKeyboardButton('🔍 𝘚ᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝘖ᴡɴᴇʀ-𝘐ɴғᴏ', url='t.me/+6gKBLreRBXE5ZTA1')
-        ], [
-            InlineKeyboardButton('⚙️ 𝘍ᴜɴᴄᴛɪᴏɴ ⚙️', callback_data='help'),
-            InlineKeyboardButton('⏱️ 𝘈ʙᴏᴜᴛ ⏱️', callback_data='about')
-        ], [
-            InlineKeyboardButton('🚧 ʙᴀᴄk 𝘚ᴛ𝘈ʀᴛ 🚧', callback_data='surprise')
+            InlineKeyboardButton('⏱️ 𝘈ʙᴏᴜᴛ ⏱️', callback_data='about'),
+            InlineKeyboardButton('𝘖ᴡɴᴇʀ-𝘐ɴғᴏ', url='t.me/vis_hnu_bot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -801,7 +794,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/+hWxbpCxKDiVkZmU1'),
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/Asianet_serial_HPM'),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
