@@ -280,17 +280,15 @@ Elsa
 """
 
     IMDB_TEMPLATE_TXT = """
-<b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
+<b><i>𝙃𝙚𝙧𝙚 𝙞𝙨 𝙬𝙝𝙖𝙩 𝙞𝙨 𝙛𝙤𝙪𝙣𝙙 𝙮𝙤𝙪𝙧 𝙦𝙪𝙚𝙧𝙮:
 
-📁 𝖸𝗈𝗎𝗋 𝖥𝗂𝗅𝖾𝗌 𝖠𝗋𝖾 𝖱𝖾𝖺𝖽𝗒
+{search}
+👤𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙙 𝘽𝙮 : {message.from_user.mention}
 
-♨️ 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 - MALLU SERIES BOT
-©{message.chat.title}</b>
+👥𝙂𝙧𝙤𝙪𝙥 : {message.chat.title}</i>}</b>
 """
 
-    CUSTOM_FILE_CAPTION = """<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : {file_name}
-
-</b>"""
+    CUSTOM_FILE_CAPTION = """<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : {file_name}</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !  SERIES BOT
