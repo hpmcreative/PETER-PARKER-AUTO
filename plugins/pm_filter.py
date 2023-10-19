@@ -113,10 +113,10 @@ async def pm_text(bot, message):
     user = message.from_user.first_name
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    await message.reply_text("<b>DON'T  ASK  HERE  FOR  FILES</b>",
+    await message.reply_text("<b>𝘿𝙊𝙉'𝙏  𝘼𝙎𝙆  𝙃𝙀𝙍𝙀  𝙁𝙊𝙍  𝙁𝙄𝙇𝙀𝙎  ⚠️</b>",
                              reply_markup=InlineKeyboardMarkup(
                                  [[
-                                     InlineKeyboardButton('🔰 Jᴏɪɴ Gʀᴏᴜᴘ 🔰', url='https://t.me/Asianet_serial_HPM')
+                                     InlineKeyboardButton('🔰 Jᴏɪɴ Gʀᴏᴜᴘ 🔰', url='https://t.me/Asianet_serial_HPM4')
                                  ]]
                              )
                             )                     
