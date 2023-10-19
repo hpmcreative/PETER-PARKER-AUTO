@@ -96,7 +96,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
         else:
             return True
     except UserNotParticipant:
-        text="""**Cʟɪᴄᴋ "🚧 𝘑𝘖𝘐𝘕 𝘙𝘌𝘘 𝘊𝘏𝘈𝘕𝘕𝘌𝘓 🚧" Tʜᴇɴ Cʟɪᴄᴋ " 🔄 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 🔄 " Bᴏᴛᴛᴏɴ Tʜᴇɴ Yᴏᴜ Wɪʟʟ Gᴇᴛ Yᴏᴜʀ Serial**"""
+        text="""**Cʟɪᴄᴋ "<a href=invite_link>🚧 𝘑𝘖𝘐𝘕 𝘙𝘌𝘘 𝘊𝘏𝘈𝘕𝘕𝘌𝘓 🚧</a>" Tʜᴇɴ Cʟɪᴄᴋ " 🔄 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 🔄 " Bᴏᴛᴛᴏɴ Tʜᴇɴ Yᴏᴜ Wɪʟʟ Gᴇᴛ Yᴏᴜʀ Serial**"""
 
         buttons = [
             [
