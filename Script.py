@@ -1,6 +1,7 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},
-ᴍʏ ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/{}>{}</a>, I Cᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ ᴀɴᴅ ꜱᴇʀɪᴇꜱ, Jᴇꜱᴛ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴɪᴏʏ</b>"""
+ᴍʏ ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/{}>{}</a>, You Can't Use Me.
+Iam Privet Serial BOT For My ADMINS.  CREDICT @VIS_HNU_BOT</b>"""
 
     HELP_TXT = """<b>𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
@@ -281,13 +282,9 @@ Elsa
     IMDB_TEMPLATE_TXT = """
 <b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
 
-🎭 ɢᴇɴʀᴇs : {genres}
-🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
+📁 𝖸𝗈𝗎𝗋 𝖥𝗂𝗅𝖾𝗌 𝖠𝗋𝖾 𝖱𝖾𝖺𝖽𝗒
 
-📆 ʏᴇᴀʀ : {release_date}
-🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
-🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
-
+♨️ 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 - MALLU SERIES BOT
 ©{message.chat.title}</b>
 """
 
@@ -296,7 +293,7 @@ Elsa
 </b>"""
 
     RESTART_TXT = """
-<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !  Eᴠᴀ - Mᴀʀɪᴀ
+<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !  SERIES BOT
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
