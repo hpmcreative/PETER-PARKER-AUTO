@@ -642,7 +642,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             show_alert=True)
 
    elif query.data == "owner1":
-        await query.answer("Oᴡɴᴇʀ :- Vɪꜱʜɴᴜ A \n Uꜱᴇʀ Nᴀᴍᴇ :- @Vɪꜱ_ʜɴᴜ_ʙᴏᴛ \n Dᴇᴠ Nᴀᴍᴇ :- HPM \n Rᴇɢɪᴏɴ :- INDIA🇮🇳 \n Lᴀɴɢᴜᴀɢᴇ :- Mᴀʟᴀʏᴀʟᴀᴍ🇮🇳", show_alert=True)
+        await query.answer("🔰 𝖮𝖶𝖭𝖤𝖱 𝖨𝖭𝖥𝖮 🔰\n Oᴡɴᴇʀ :- Vɪꜱʜɴᴜ A \n Uꜱᴇʀ Nᴀᴍᴇ :- @Vɪꜱ_ʜɴᴜ_ʙᴏᴛ \n Dᴇᴠ Nᴀᴍᴇ :- HPM \n Rᴇɢɪᴏɴ :- INDIA🇮🇳 \n Lᴀɴɢᴜᴀɢᴇ :- Mᴀʟᴀʏᴀʟᴀᴍ🇮🇳", show_alert=True)
                    
    elif query.data == "surprise":
         btn = [[
