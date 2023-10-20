@@ -276,15 +276,21 @@ Elsa
 """
 
     IMDB_TEMPLATE_TXT = """
-<b><i>𝙃𝙚𝙧𝙚 𝙞𝙨 𝙬𝙝𝙖𝙩 𝙞𝙨 𝙛𝙤𝙪𝙣𝙙 𝙮𝙤𝙪𝙧 𝙦𝙪𝙚𝙧𝙮:
+<b><i>👋 𝙃𝙚𝙧𝙚 𝙞𝙨 𝙬𝙝𝙖𝙩 𝙞𝙨 𝙛𝙤𝙪𝙣𝙙 𝙮𝙤𝙪𝙧 𝙦𝙪𝙚𝙧𝙮:
 
 {search}
+
 👤𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙙 𝘽𝙮 : {message.from_user.mention}
 
 👥𝙂𝙧𝙤𝙪𝙥 : {message.chat.title}</i>}</b>
 """
 
-    CUSTOM_FILE_CAPTION = """<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : {file_name}</b>"""
+    CUSTOM_FILE_CAPTION = """<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : {file_name}
+
+
+Join Now 👉@serial_malayalam_bot
+
+🔰 𝘋𝘖𝘞𝘕𝘓𝘖𝘈𝘋 :-   https://t.me/+BgX0oYk59wxiZjk1</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !  SERIES BOT
