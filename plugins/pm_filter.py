@@ -113,10 +113,10 @@ async def pm_text(bot, message):
     user = message.from_user.first_name
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    await message.reply_text("<b>ഇവിടെ ചോദിച്ചാൽ സിനിമ കിട്ടില്ല ഗ്രൂപ്പിൽ മാത്രം സിനിമ ചോദിക്കുക</b>",
+    await message.reply_text("<b>𝘿𝙊𝙉'𝙏  𝘼𝙎𝙆  𝙃𝙀𝙍𝙀  𝙁𝙊𝙍  𝙁𝙄𝙇𝙀𝙎  ⚠️</b>",
                              reply_markup=InlineKeyboardMarkup(
                                  [[
-                                     InlineKeyboardButton('🔰 Jᴏɪɴ Gʀᴏᴜᴘ 🔰', url='https://t.me/+eJvqrixrfMBlYjI1')
+                                     InlineKeyboardButton('🔰 Jᴏɪɴ Gʀᴏᴜᴘ 🔰', url='https://t.me/Asianet_serial_HPM4')
                                  ]]
                              )
                             )                     
@@ -548,7 +548,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("𝑰 𝑳𝒊𝒌𝒆 𝒀𝒐𝒖𝒓 𝑺𝒎𝒂𝒓𝒕𝒏𝒆𝒔𝒔, 𝑩𝒖𝒕 𝑫𝒐𝒏'𝒕 𝑩𝒆 𝑶𝒗𝒆𝒓𝒔𝒎𝒂𝒓𝒕 😒\n@ARAKAL_THERAVAD_MOVIES", show_alert=True)
+            await query.answer("𝑰 𝑳𝒊𝒌𝒆 𝒀𝒐𝒖𝒓 𝑺𝒎𝒂𝒓𝒕𝒏𝒆𝒔𝒔, 𝑩𝒖𝒕 𝑫𝒐𝒏'𝒕 𝑩𝒆 𝑶𝒗𝒆𝒓𝒔𝒎𝒂𝒓𝒕 🇮🇳", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
@@ -631,10 +631,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("കോപ്പിറൈറ്റ് ഉള്ളതുകൊണ്ട് ഫയൽ 10 മിനിറ്റിനുള്ളിൽ ഇവിടെനിന്നും ഡിലീറ്റ് ആകുന്നതാണ് അതുകൊണ്ട് ഇവിടെ നിന്നും മറ്റെവിടെക്കെങ്കിലും മാറ്റിയതിന് ശേഷം ഡൗൺലോഡ് ചെയ്യുക!", show_alert=True)
         
     elif query.data == "ftam":
-        await query.answer("பதிப்புரிமை காரணமாக, கோப்பு இங்கிருந்து 10 நிமிடங்களில் நீக்கப்படும், எனவே இங்கிருந்து வேறு எங்காவது நகர்த்தப்பட்ட பிறகு பதிவிறக்கவும்!", show_alert=True)
+        await query.answer("🔰 𝖮𝖶𝖭𝖤𝖱 𝖨𝖭𝖥𝖮 🔰\n Oᴡɴᴇʀ :- Vɪꜱʜɴᴜ A \n Uꜱᴇʀ Nᴀᴍᴇ :- @Vɪꜱ_ʜɴᴜ_ʙᴏᴛ \n Dᴇᴠ Nᴀᴍᴇ :- HPM \n Rᴇɢɪᴏɴ :- INDIA🇮🇳 \n Lᴀɴɢᴜᴀɢᴇ :- Mᴀʟᴀʏᴀʟᴀᴍ🇮🇳", show_alert=True)
 
     elif query.data == "fhin":
         await query.answer("कॉपीराइट के कारण फ़ाइल यहां से 10 मिनट में डिलीट हो जाएगी इसलिए यहां से कहीं और ले जाकर डाउनलोड करें!", show_alert=True)
+
+    elif query.data == "whyjoin":
+        await query.answer(
+            "⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\nIғ ᴛʜᴇ ɢʀᴏᴜᴘ ᴄᴏᴘʏ ʀɪɢʜᴛ ɪꜱ ʟᴏꜱᴛ , ᴡʜᴇɴ ᴀ ɴᴇᴡ ɢʀᴏᴜᴘ ɪꜱ ꜱᴛᴀʀᴛᴇᴅ, ɪᴛ ᴡɪʟʟ ʙᴇ ɴᴏᴛɪғɪᴇᴅ ᴏɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ🤥",
+            show_alert=True)
         
     elif query.data == "surprise":
         btn = [[
@@ -654,15 +659,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
-            InlineKeyboardButton('🔍 𝘚ᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝘖ᴡɴᴇʀ-𝘐ɴғᴏ', url='t.me/+6gKBLreRBXE5ZTA1')
-        ], [
-            InlineKeyboardButton('⚙️ 𝘍ᴜɴᴄᴛɪᴏɴ ⚙️', callback_data='help'),
-            InlineKeyboardButton('⏱️ 𝘈ʙᴏᴜᴛ ⏱️', callback_data='about')
-        ], [
-            InlineKeyboardButton('🚧 ʙᴀᴄk 𝘚ᴛ𝘈ʀᴛ 🚧', callback_data='surprise')
+            InlineKeyboardButton('⏱️ 𝘈ʙᴏᴜᴛ ⏱️', callback_data='about'),
+            InlineKeyboardButton('𝘖ᴡɴᴇʀ-𝘐ɴғᴏ', callback_data='ftam')
+        ],[
+            InlineKeyboardButton('🚧 Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ 🚧', url='https://t.me/Asianet_serial_HPM4')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1076,7 +1076,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "rfrsh":
-        await query.answer("𝙁𝙚𝙩𝙘𝙝𝙞𝙣𝙜 𝙈𝙤𝙣𝙜𝙤𝘿𝙗 𝘿𝙖𝙩𝙖𝘽𝙖𝙨𝙚")
+        await query.answer("𝙁𝙚𝙩𝙘𝙝𝙞𝙣𝙜 𝙈𝙤𝙣𝙜𝙤𝘿𝙗 𝘿𝙖𝙩𝙖𝘽𝙖𝙨𝙚.............")
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='stats'),
             InlineKeyboardButton('ʀᴇғʀᴇsʜ', callback_data='rfrsh')
