@@ -637,20 +637,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("कॉपीराइट के कारण फ़ाइल यहां से 10 मिनट में डिलीट हो जाएगी इसलिए यहां से कहीं और ले जाकर डाउनलोड करें!", show_alert=True)
 
   
-elif query.data == "whyjoin":
+    elif query.data == "whyjoin":
         await query.answer(
             "⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\nIғ ᴛʜᴇ ɢʀᴏᴜᴘ ᴄᴏᴘʏ ʀɪɢʜᴛ ɪꜱ ʟᴏꜱᴛ , ᴡʜᴇɴ ᴀ ɴᴇᴡ ɢʀᴏᴜᴘ ɪꜱ ꜱᴛᴀʀᴛᴇᴅ, ɪᴛ ᴡɪʟʟ ʙᴇ ɴᴏᴛɪғɪᴇᴅ ᴏɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ🤥",
             show_alert=True)
         
-        
-    elif query.data == "surprise":
+     elif query.data == "surprise":
         btn = [[
             InlineKeyboardButton('sᴜʀᴘʀɪsᴇ', callback_data='start')
         ]]
-        reply_markup = InlineKeyboardMarkup(btn)
+        reply_markup=InlineKeyboardMarkup(btn)
         await client.edit_message_media(
-            query.message.chat.id,
-            query.message.id,
+            query.message.chat.id, 
+            query.message.id, 
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
@@ -658,6 +657,7 @@ elif query.data == "whyjoin":
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+    
    elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('⏱️ 𝘈ʙᴏᴜᴛ ⏱️', callback_data='about'),
