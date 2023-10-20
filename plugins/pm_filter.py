@@ -641,14 +641,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             "⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\nIғ ᴛʜᴇ ɢʀᴏᴜᴘ ᴄᴏᴘʏ ʀɪɢʜᴛ ɪꜱ ʟᴏꜱᴛ , ᴡʜᴇɴ ᴀ ɴᴇᴡ ɢʀᴏᴜᴘ ɪꜱ ꜱᴛᴀʀᴛᴇᴅ, ɪᴛ ᴡɪʟʟ ʙᴇ ɴᴏᴛɪғɪᴇᴅ ᴏɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ🤥",
             show_alert=True)
         
-   elif query.data == "surprise":
+    elif query.data == "surprise":
         btn = [[
             InlineKeyboardButton('sᴜʀᴘʀɪsᴇ', callback_data='start')
         ]]
-        reply_markup=InlineKeyboardMarkup(btn)
+        reply_markup = InlineKeyboardMarkup(btn)
         await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
+            query.message.chat.id,
+            query.message.id,
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
