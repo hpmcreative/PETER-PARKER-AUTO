@@ -283,12 +283,7 @@ Elsa
 /How_to_download</i>}</b>
 """
 
-    CUSTOM_FILE_CAPTION = """<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : {file_name}
-
-
-Join Now 👉@serial_malayalam_bot
-
-🔰 𝘋𝘖𝘞𝘕𝘓𝘖𝘈𝘋 :-   https://t.me/+BgX0oYk59wxiZjk1</b>"""
+    CUSTOM_FILE_CAPTION = """<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : {file_name}</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !  SERIES BOT
