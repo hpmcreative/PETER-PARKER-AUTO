@@ -44,7 +44,7 @@ class evamaria(Client):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '13305226'))
 API_HASH = environ.get('API_HASH', '8cde2475d6b0cb1162b89ebbac71a95d')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6621594376:AAGCwfRJKYFVyyACBA5PFxDpPzzye95MmwU')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -77,8 +77,8 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "hpm")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://V:V@cluster0.u2yffnl.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "serial")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MONGO_URL = os.environ.get('MONGO_URL', "")
 
@@ -86,9 +86,9 @@ MONGO_URL = os.environ.get('MONGO_URL', "")
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 #url links
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '90acb6e4625d3d12d3ac0bc353842bacdafa05ba')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'https://instantlinks.in')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
 #Auto approve 
 #In private group or channel must enable request admin approval 
@@ -100,7 +100,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "off").lower()
 auth_channel = environ.get('AUTH_CHANNEL')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
-REQ_CHANNEL = environ.get("REQ_CHANNEL", '-1002072418680')
+REQ_CHANNEL = environ.get("REQ_CHANNEL", '')
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
@@ -119,8 +119,8 @@ S_GROUP = environ.get('S_GROUP',"https://t.me/y3movies")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/Asianet_serial_HPM")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/filesforwardkaroyaar")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺...')
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1002121344300'))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002055132214'))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001906470657'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'y3movies')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
